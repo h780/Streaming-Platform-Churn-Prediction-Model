@@ -1,8 +1,6 @@
 # Streaming-Platform-Churn-Prediction-Model
 Churn Prediction Model for streaming platform using Decision Trees and Ensemble Technique
 
-In this project I perform Logistic Regression to develop a Churn Prediction Model on streaming data.
-
 Business Objective: A Decision Tree is a Supervised learning technique that can be used for both classification and regression problems, but mostly it is preferred for solving Classification problems. It is a tree-structured classifier, where internal nodes represent the features of a dataset, branches represent the decision rules, and each leaf node represents the outcome. It is a graphical representation of all possible solutions to a problem/decision based on given conditions. It is called a decision tree because similar to a tree, it starts with the root node, which expands on further branches and constructs a tree-like structure. A decision tree asks a question and based on the answer (Yes/No), it further splits the tree into subtrees.
 
 Customers that have decided to quit their engagement with their current company are known as churned customers. I decided to work with a churn dataset for this case study.
@@ -22,12 +20,12 @@ Approach:
    -> Data Visualization <br />
 5. Feature Engineering <br />
    -> Dropping of unwanted columns <br />
-6. Model Building <br />
+6. Logistic Regression Model Building <br />
    -> Using the statsmodel library <br />
-7. Model Building <br /> 
+7. Logistic Regression Model Building <br /> 
    -> Performing train test split <br />
    -> Logistic Regression Model <br />
-8. Model Validation (predictions) <br />
+8. Logistic Regression Model Validation (predictions) <br />
    -> Accuracy score <br />
    -> Confusion matrix <br />
    -> ROC and AUC <br />
@@ -37,9 +35,19 @@ Approach:
 9. Handling the unbalanced data <br />
    -> With balanced weights <br />
    -> Random weights <br />
-   -> Adjusting imbalanced data
-   -> Using SMOTE
-10. Feature Selection
-   -> Barrier threshold selection
-   -> RFE method
-11. Saving the model in the form of a pickle file.
+   -> Adjusting imbalanced data <br />
+   -> Using SMOTE <br />
+10. Feature Selection <br />
+   -> Barrier threshold selection <br />
+   -> RFE method <br />
+11. Saving the Logistic Regression model in the form of a pickle file <br />
+12. Decision Tree Model Building <br /> 
+   -> Performing train test split <br />
+   -> Executing Decision Tree Model <br />
+13. Decision Tree Model Evaluation <br />
+14. Decision Tree Visualization <br />
+15. Decision Tree Feature Selection (not successful yet) <br />
+16. Random Forest Model <br />
+17. Adaptive Boosting <br />
+18. Gradient Boosting <br />
+19. LIME Implementation <br />
